@@ -1,5 +1,5 @@
 import { Control } from "react-hook-form";
-import { FormFieldType } from "../forms/PatientForm";
+import { FormFieldType } from "./forms/PatientForm";
 import { E164Number } from "libphonenumber-js/core";
 import {
   FormControl,
@@ -7,7 +7,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "./form";
+} from "./ui/form";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import "react-phone-number-input/style.css";

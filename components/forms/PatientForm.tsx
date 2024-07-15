@@ -5,7 +5,7 @@ import { Form } from "@/components/ui/form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import CustomeFormField from "../ui/CustomeFormField";
+import CustomeFormField from "../CustomeFormField";
 
 export enum FormFieldType {
   INPUT = "input",
