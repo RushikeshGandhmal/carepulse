@@ -26,6 +26,8 @@ const PatientForm = () => {
     resolver: zodResolver(UserFormValidation),
     defaultValues: {
       name: "",
+      email: "",
+      phone: "",
     },
   });
 
